@@ -81,9 +81,7 @@ fn solve(year: &u32, day: &u8, input_dir: PathBuf) -> Result<(), Box<dyn std::er
         match year {
             2021 => match day {
                 1 => solve_2021_1::solve(data),
-                // 1 => solve_2021_1::solve(data),
                 2 => solve_2021_2::solve(data),
-                // 2 => solve_2021_2::solve(data),
                 _ => println!("Day {} of year {} is not solved yet", day, year),
             },
             _ => println!("Year {} has no solutions yet", year),
